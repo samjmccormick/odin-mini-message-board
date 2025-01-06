@@ -1,0 +1,44 @@
+html {
+  background-color: #01002c !important;
+}
+
+body {
+  background-color: #01002c !important;
+}
+
+header {
+  background-color: #01003a;
+  color: wheat;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+}
+
+.message-user {
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.message-row {
+  background-color: #2c2c00;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+.message-date {
+  font-size: x-small;
+}
+
+.new-message {
+  color: whitesmoke;
+}
+
+button {
+  margin-top: 5px !important;
+}
+
+a {
+  margin-top: 5px !important;
+}
