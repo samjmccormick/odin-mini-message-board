@@ -13,11 +13,15 @@
   </head>
   <%- include('header', {username: username}); %>
   <body>
-    <% messages.forEach((message) => { %> <%- include('messages/message', {id:
-    message.id, user: message.user, text: message.text, added: message.added});
-    %> <% }); %>
+    <div class="container message-container">
+      <div class="row message-user"><%= message.user %></div>
+      <div class="row message-row">
+        <div class="col message-text"><%= message.text %></div>
+        <div class="col message-date"><%= message.added %></div>
+      </div>
+    </div>
     <div class="container">
-      <a class="btn btn-primary" href="new">New Message</a>
+      <a class="btn btn-primary" href="/">Homepage</a>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
