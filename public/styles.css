@@ -21,7 +21,7 @@ header {
   color: whitesmoke;
 }
 
-.message-row {
+.message-text {
   background-color: #2c2c00;
   border-radius: 10px;
   color: whitesmoke;
@@ -29,6 +29,7 @@ header {
 
 .message-date {
   font-size: x-small;
+  color: whitesmoke;
 }
 
 .new-message {
